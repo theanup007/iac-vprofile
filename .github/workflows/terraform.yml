@@ -48,7 +48,7 @@ jobs:
 
       - name: Validate terraform
         id: validate
-        run: terraform validate -backend-config="bucket=$BUCKET_TF_STATE"
+        run: terraform validate -backend-config="$BUCKET_TF_STATE"
 
       - name: Plan terraform
         id: plan
