@@ -10,4 +10,3 @@ variable "clusterName" {
   default     = "udemy-vprofile-eks"
 }
 
-###VARIABLE###
