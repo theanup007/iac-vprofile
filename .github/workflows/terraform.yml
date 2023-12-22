@@ -44,7 +44,7 @@ jobs:
 
       - name: Format terraform
         id: fmt
-        run: terraform fmt -check"
+        run: terraform fmt -check
 
       - name: Validate terraform
         id: validate
