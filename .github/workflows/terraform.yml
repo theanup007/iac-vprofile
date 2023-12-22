@@ -48,7 +48,7 @@ jobs:
 
       - name: Validate terraform
         id: validate
-        run: terraform validate -backend-config="bucket=iac-for-gitops-project"
+        run: terraform validate
 
       - name: Plan terraform
         id: plan
